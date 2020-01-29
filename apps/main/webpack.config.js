@@ -16,6 +16,7 @@ module.exports = {
     overlay: { warnings: false, errors: true },
   },
   output: {
+    paulicPath: '/',
     library: `${name}-[name]`,
     libraryTarget: 'umd',
     jsonpFunction: `webpackJsonp_${name}`,

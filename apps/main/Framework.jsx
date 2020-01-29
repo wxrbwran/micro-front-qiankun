@@ -13,7 +13,7 @@ export default class Framework extends Component{
   
   state = {
     tab: '/login',
-    prePath: '/login',
+    prePath: '/ ',
   };
 
   static getDerivedStateFromProps(prevState, nextProps) {
